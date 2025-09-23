@@ -1,0 +1,49 @@
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    width: 27rem;
+    height: 27rem;
+    padding: 0px;
+}
+
+.container2
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    width: 27rem;
+    height: 27rem;
+    padding: px;
+    margin-top: 50px;
+    
+}
+
+.box
+{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    height: 33.33%;
+    width: 33.33%;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+.subbox
+{
+    display: inline-block;
+    border: 0.5px solid;
+    height: 33.33%;
+    width: 33.33%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+}
+#green
+{
+    background-color: rgb(204, 133, 255);
+}
