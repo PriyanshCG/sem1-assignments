@@ -4,3 +4,15 @@ h1{
 .card.solid{
     background-color: coral;
 }
+.card.linear{
+    background: linear-gradient(to bottom , red ,rgb(255, 225, 0) );
+}
+.card.radial{
+    background: radial-gradient(circle, orange,rgb(0, 169, 254));
+}
+.bg-demo {
+  background: url("https://wallpapercave.com/wp/wp9075024.jpg") repeat-x top center / 300px auto;
+  padding: 40px;
+  color: #ffff00;
+  text-align: center;
+}
