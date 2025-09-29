@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    padding-top: 0;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url('https://www.shutterstock.com/image-vector/night-cricket-stadium-illustration-vector-600nw-2160100275.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    justify-content: center;
+}
+.super{
+    display: flex;
+    justify-self: center;   
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+.score{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 20px;
+}
+.india
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 300px;
+    background-color: #1a56d8;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.paki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #1e5608;
+}
+.team1{
+    margin-top: 20px;
+    font-size: 50px;
+    color: aliceblue;
+    align-self: center;
+    
+}
+.runs
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+.run{
+
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* align-content: center; */
+}
+.total{
+    color: #fff;
+    font-size: 40px;
+    align-self: center;
+    margin-top: 20px;
+}
+.img
+{
+    margin-top: 50px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+#bat{
+    margin-right: 50px;
+    border-radius: 20px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 3px white;
+}
+#restart{
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 3px white;
+}

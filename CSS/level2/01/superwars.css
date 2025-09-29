@@ -1,64 +1,48 @@
-.main{
-    display: flex;
-    justify-content: center;
-    
-  
-}
-.text1{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 50px;
-    margin-left: 150px;
-    
-}
-.box1{
-    height: 160px;
-    width: 100px;
-    border: 2px solid gray;
-    
-    border-radius: 5%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-.box1 img{
-    height: 80px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.text{
-    font-size: small;
-    margin-bottom: 40px;
-    margin-left:0px;
-}
-    
 
-.box2{
-    height: 160px;
-    width: 100px;
-    border: 2px solid gray;
-  
-    border-radius: 5%;
-    display: flex;
-    margin-left: 20px;
-}
-.box3{
-    height: 160px;
-    width: 100px;
-    border: 2px solid gray;
-   
-    border-radius: 5%;
-    display: flex;
-    margin-left: 180px;
-}
-.box4{
-    height: 160px;
-    width: 100px;
-    border: 2px solid gray;
+ body {
+      display: flex;
+      justify-content: center;
+      height: 180px;
+      margin: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
     
-    border-radius: 5%;
-    display: flex;
-    margin-left: 20px;
-}
+    }
+
+    .cards {
+      display: flex;
+      margin-right: 20px;
+      
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 10px;
+      text-align: center;
+      width: 100px;
+      margin-right: 20px;
+    }
+
+    .card img {
+      width: 70px;
+      height: 70px;
+    }
+
+    .name {
+      font-size: 14px;
+      margin: 5px;
+    }
+
+    .score {
+      font-size: 24px;
+    }
+
+    .vs {
+      font-size: 28px;
+      font-weight: bold;
+      margin-right: 30px;
+    }
