@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.background{
+    display: flex;
+    flex-wrap: wrap;
+     background-image: url('https://raw.githubusercontent.com/raunak2015/CGxSU_Semester_1/refs/heads/main/html_css_js/CSS/00.assignment/02.level_2/06.cricket_app/backgroud.png');
+    background-size: contain ;
+    background-position: right;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 900px;
+    width: 100%;
+    border: 1px solid;
+
+}
+.logio{
+    
+    height: 50px;
+    width: 100px;
+}
+#logo{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+#icc{
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-shadow: 0px 5px 10px;
+}
+#vs{
+    font-size: 25px;
+    margin-top: 5px;
+    color: black;
+}
+.heading{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+.head{
+     display: flex;
+    position: absolute;
+    background-color: red;
+    top: 28%;
+    left: 5%;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0;
+    justify-content: space-between;
+    align-content: center;
+    width: 63%;
+    height: 30px;
+    border: 1px solid;
+}
+.india{
+    display: flex;
+    color: aliceblue;
+}
+.score{
+    color: aliceblue;
+}
+table{
+    height: 58%;
+    width: 63.7%;
+    background-color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+}
+th, td{
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+.blue{
+    color: blue;
+}

@@ -1,188 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container{
-            border: 1px solid black;
-            height: 500px;
-            width: 500px;
-            display: flex;
-            
-        }
-        .red{
-            border: 30px solid red;
-            height: 150px;
-            width: 150px;
-            display: flex;
-            
-        }
-        .circler1{
-            border: 3px solid red;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circler2{
-            border: 3px solid red;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circler3{
-            border: 3px solid red;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circler4{
-            border: 3px solid red;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .blue{
-            border: 30px solid blue;
-            height: 150px;
-            width: 150px;
-            display: flex;
-            margin-top: 291px;
-            margin-left: -210px;
-        }
-        .circleb1{
-            border: 3px solid blue;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circleb2{
-            border: 3px solid blue;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circleb3{
-            border: 3px solid blue;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circleb4{
-            border: 3px solid blue;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .green{
-            border: 30px solid green;
-            height: 150px;
-            width: 150px;
-            display: flex;
-            margin-left: 81px;
-        }
-        .circleg1{
-            border: 3px solid green;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circleg2{
-            border: 3px solid green;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circleg3{
-            border: 3px solid green;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circleg4{
-            border: 3px solid green;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .yellow{
-            border: 30px solid yellow;
-            height: 150px;
-            width: 150px;
-            display: flex;
-            margin-left: -210px;
-            margin-top: 291px;
-        }
-        .circley1{
-            border: 3px solid yellow;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circley2{
-            border: 3px solid yellow;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circley3{
-            border: 3px solid yellow;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-        .circley4{
-            border: 3px solid yellow;
-            border-radius: 100%;
-            width: 25px;
-            height: 25px;
-
-        }
-    </style>
+    <link rel="stylesheet" href="ludo.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="red">
-            <div class="circler1"></div>
-            <div class="circler2"></div>
-            <div class="circler3"></div>
-            <div class="circler4"></div>
+        <div class="ludo">
+            <div class="row1">
+
+                <div class="subbox" id="red">
+                    <div class="inbox">
+                        <div class="cir" id="redc"></div>
+                        <div class="cir" id="redc"></div>
+                        <div class="cir" id="redc"></div>
+                        <div class="cir" id="redc"></div>
+                    </div>
+                </div>
+                <div class="minbox">
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini" id="greenb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="greenb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                </div>
+                <div class="subbox" id="green">
+                    <div class="inbox">
+                        <div class="cir" id="greenc"></div>
+                        <div class="cir" id="greenc"></div>
+                        <div class="cir" id="greenc"></div>
+                        <div class="cir" id="greenc"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
+
+                <div class="hbox">
+                    <div class="hmini"></div>
+                    <div class="hmini" id="redb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"id="redb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                </div>
+                <div class="cbox">
+                    <div class="triangle red"></div>
+                    <div class="triangle green"></div>
+                    <div class="triangle yellow"></div>
+                    <div class="triangle blue"></div>
+                </div>
+                <div class="hbox"><div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"  id="yellowb"> 
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini" id="yellowb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div></div>
+            </div>
+
+            <div class="row1">
+                <div class="subbox" id="blue">
+                    <div class="inbox">
+                        <div class="cir" id="bluec"></div>
+                        <div class="cir" id="bluec"></div>
+                        <div class="cir" id="bluec"></div>
+                        <div class="cir" id="bluec"></div>
+                    </div>
+                </div>
+                <div class="minbox">
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini" id="blueb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="blueb"> 
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div></div>
+                <div class="subbox" id="yellow">
+                    <div class="inbox" >
+                        <div class="cir" id="yellowc"></div>
+                        <div class="cir" id="yellowc"></div>
+                        <div class="cir" id="yellowc"></div>
+                        <div class="cir" id="yellowc"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box1"></div>
         </div>
-        <div class="blue">
-            <div class="circleb1"></div>
-            <div class="circleb2"></div>
-            <div class="circleb3"></div>
-            <div class="circleb4"></div>
-        </div>
-        <div class="green">
-            <div class="circleg1"></div>
-            <div class="circleg2"></div>
-            <div class="circleg3"></div>
-            <div class="circleg4"></div>
-        </div>
-        <div class="yellow">
-            <div class="circley1"></div>
-            <div class="circley2"></div>
-            <div class="circley3"></div>
-            <div class="circley4"></div>
-        </div>
-        
+    </div>
     </div>
 </body>
+
 </html>
