@@ -60,6 +60,7 @@
 .box1{
     border: 2px solid blue;
     background-color: blue;
+    color: #f2f2f2;
     margin-top: 20px;
     text-align: center;
     font-size:22px;
@@ -99,7 +100,7 @@ color: rgb(255, 255, 255);
     font-size: 40px;
     margin-left: 600px;
     margin-top: 20px;
-}
+}    
 .fbox1 img{
     height: 376px;
     width: 376px;
@@ -371,7 +372,7 @@ h1,h2,p {
 
 .box1:hover .textofbox1 a,
 .box2:hover a {
-          color: #0078ff;
+          color: #f0f1f3;
 }
 
 
