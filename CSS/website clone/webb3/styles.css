@@ -186,10 +186,9 @@ body {
   background: #0f0f0f;
   border: 1px solid #1f1f1f;
   min-width: 240px;
-  max-width: calc(100vw - 24px);
   padding: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-  z-index: 1000;
+  z-index: 100;
   overflow-x: hidden;
 }
 

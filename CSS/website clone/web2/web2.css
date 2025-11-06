@@ -138,6 +138,7 @@ color: rgb(255, 255, 255);
     width: 180px;
     margin-top: 45px;
     font-size: 30px;
+    
 }
 
 .latestupdatesbox{
@@ -158,6 +159,7 @@ color: rgb(255, 255, 255);
     box-shadow: 10px 10px 5px lightgray;
      height: 468px;
     width: 388px;
+    font-weight: bolder;
 }
 .lbox1 img{
     height: 204px;
