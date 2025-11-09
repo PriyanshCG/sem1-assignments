@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chrono24 Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">CHRONO24</div>
+  </header>
+
+  <section class="login-section">
+    <div class="login-box">
+      <h2 class="login-title">Log in</h2>
+
+      <form class="login-form">
+        <label for="email" class="login-label">Email address</label>
+        <input type="email" id="email" class="login-input" placeholder="Enter your email" required />
+
+        <label for="password" class="login-label">Password</label>
+        <div class="password-container">
+          <input type="password" id="password" class="login-input" placeholder="Enter your password" required />
+          <span class="toggle-password">&#128065;</span>
+        </div>
+
+        <div class="login-options">
+          <label class="stay-logged"><input type="checkbox" /> Stay logged in</label>
+          <a href="#" class="forgot-password">Forgot your password?</a>
+        </div>
+
+        <button type="submit" class="btn login-btn">Log in</button>
+
+        <div class="divider">
+          <span>OR</span>
+        </div>
+
+        <button type="button" class="btn google-btn">Continue with Google</button>
+        <button type="button" class="btn apple-btn">Continue with Apple</button>
+
+        <p class="signup-text">
+          New to Chrono24? <a href="#">Create a free account now</a>
+        </p>
+      </form>
+    </div>
+
+    <footer class="login-footer">
+      <a href="#">Data Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Legal Details</a>
+      <a href="#">Contact</a>
+    </footer>
+  </section>
+</body>
+</html>
