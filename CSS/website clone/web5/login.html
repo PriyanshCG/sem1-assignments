@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In to Drop</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f8f8f8;
+      color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #fff;
+      width: 380px;
+      border: 1px solid #e6e6e6;
+      border-radius: 6px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+
+    .login-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      border-bottom: 1px solid #e6e6e6;
+    }
+
+    .login-header h2 {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .close-btn {
+      font-size: 22px;
+      cursor: pointer;
+      color: #555;
+    }
+
+    .close-btn:hover {
+      color: #000;
+    }
+
+    .google-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 85%;
+      margin: 25px auto 15px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 10px 0;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .google-btn img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .google-btn:hover {
+      background-color: #f5f5f5;
+    }
+
+    .divider {
+      text-align: center;
+      color: #777;
+      font-size: 13px;
+      position: relative;
+      margin: 10px 0;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 38%;
+      height: 1px;
+      background-color: #ddd;
+    }
+
+    .divider::before {
+      left: 0;
+    }
+
+    .divider::after {
+      right: 0;
+    }
+
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      margin: 10px 0;
+    }
+
+    .login-form label {
+      align-self: flex-start;
+      margin-left: 30px;
+      font-size: 14px;
+      color: #222;
+    }
+
+    .login-form input {
+      width: 85%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .login-form input:focus {
+      outline: none;
+      border-color: #111;
+    }
+
+    .email-btn {
+      width: 85%;
+      padding: 10px 0;
+      background-color: #e9e9e9;
+      color: #777;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: not-allowed;
+    }
+
+    .info-box {
+      background-color: #f7f7f7;
+      padding: 14px 20px;
+      font-size: 13px;
+      color: #444;
+      text-align: left;
+      margin: 10px auto;
+      width: 85%;
+      border-radius: 4px;
+      line-height: 1.4;
+    }
+
+    .info-box a {
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    .signup-box {
+      text-align: center;
+      border-top: 1px solid #e6e6e6;
+      padding: 14px 0;
+      font-size: 14px;
+    }
+
+    .signup-box a {
+      color: #0077cc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="login-container">
+    <div class="login-header">
+      <h2>LOG IN TO DROP</h2>
+      <span class="close-btn">&times;</span>
+    </div>
+
+    <button class="google-btn">
+      <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google Logo">
+      Log In with Google
+    </button>
+
+    <div class="divider">OR</div>
+
+    <form class="login-form">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Email" required>
+      <button class="email-btn" disabled>Log In with Email</button>
+    </form>
+
+    <div class="info-box">
+      ✨ We’ll email you a magic code for a password-free sign in. Or you can
+      <a href="#">log in manually instead</a>.
+    </div>
+
+    <div class="signup-box">
+      Not a member yet? <a href="#">Sign up</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
